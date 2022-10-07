@@ -109,12 +109,33 @@ p{
 }
 .projects {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* border: 1px solid black; */
+    gap: 1.5rem;
+    
+
+}
+.column{
+    /* object-position: center; */
+    display: flex;
     flex-flow: column wrap;
-    height: fit-content;
-
+    justify-content: center;
+    gap: 1.5rem;
+}
+footer{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid gray;
+    margin: .1rem;
 }
 
-.projects img{
- width: 100px;
- height: 100px;
-}
